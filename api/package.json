@@ -1,0 +1,27 @@
+{
+  "name": "api-worldcup",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "prisma":{
+    "seed": "node prisma/seed.js"
+  },
+  "author": {
+    "name": "Jonatan Koroch de Aguiar",
+    "email": "jonatanaguiar1998@hotmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "@koa/router": "^12.0.0",
+    "@prisma/client": "^4.5.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0"
+  },
+  "devDependencies": {
+    "prisma": "^4.5.0"
+  }
+}
